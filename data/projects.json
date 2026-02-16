@@ -1,0 +1,182 @@
+[
+  {
+    "slug": "fexillon",
+    "title": "Fexillon",
+    "category": "UX Strategy",
+    "description": "A comprehensive UX strategy and design system for a leading enterprise software platform, focusing on user-centered design principles and scalable component architecture.",
+    "thumbnail": "/images/projects/fexillon-thumb.jpg",
+    "heroImage": "/images/projects/fexillon-hero.jpg",
+    "tags": ["UX Strategy", "Design Systems", "Enterprise"],
+    "year": "2023",
+    "client": "Fexillon",
+    "role": "UX Strategist & Designer",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Fexillon required a complete overhaul of their enterprise platform's user experience. The existing interface was cluttered, inconsistent, and failing to meet the needs of their growing user base. I was brought in to lead the UX strategy from discovery through to delivery."
+      },
+      {
+        "title": "Challenges",
+        "content": "The primary challenges included legacy system constraints, multiple stakeholder groups with competing priorities, and a tight timeline for delivery. The platform served over 10,000 daily active users across different roles and skill levels."
+      },
+      {
+        "title": "Approach",
+        "content": "I began with extensive user research, conducting interviews with 30+ users across different roles. This informed the creation of detailed personas and journey maps. From there, I developed a comprehensive design system that could scale across the entire platform."
+      },
+      {
+        "title": "Findings",
+        "content": "Research revealed that users were spending 40% more time than necessary on core tasks due to poor information architecture. Navigation patterns were inconsistent, and critical features were buried under multiple layers of menus."
+      },
+      {
+        "title": "Recommendations",
+        "content": "I recommended a simplified navigation structure, role-based dashboards, and a consistent component library. The new design system included over 60 components with detailed documentation and usage guidelines."
+      },
+      {
+        "title": "Final Thoughts",
+        "content": "The redesigned platform saw a 35% reduction in task completion time and a significant improvement in user satisfaction scores. The design system continues to serve as the foundation for all new feature development."
+      }
+    ]
+  },
+  {
+    "slug": "blue-prism",
+    "title": "Blue Prism",
+    "category": "Experience Design",
+    "description": "Redesigning the user experience for Blue Prism's intelligent automation platform, creating intuitive workflows for complex robotic process automation tasks.",
+    "thumbnail": "/images/projects/blue-prism-thumb.jpg",
+    "heroImage": "/images/projects/blue-prism-hero.jpg",
+    "tags": ["Experience Design", "Automation", "Enterprise"],
+    "year": "2023",
+    "client": "Blue Prism",
+    "role": "Senior UX Designer",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Blue Prism is a global leader in intelligent automation. They needed to simplify their complex platform interface to make robotic process automation accessible to a wider audience of business users."
+      },
+      {
+        "title": "Challenges",
+        "content": "The platform's complexity was a barrier to adoption. Non-technical users struggled with the interface, and even experienced users found certain workflows unnecessarily complicated."
+      },
+      {
+        "title": "Approach",
+        "content": "Through contextual inquiry and usability testing, I identified key pain points and developed a progressive disclosure model that revealed complexity only when needed. The new interface guides users through automation creation step by step."
+      },
+      {
+        "title": "Final Thoughts",
+        "content": "The simplified interface led to a 50% increase in user adoption among non-technical staff and reduced onboarding time from weeks to days."
+      }
+    ]
+  },
+  {
+    "slug": "wall-beard",
+    "title": "Wall Beard",
+    "category": "Branding",
+    "description": "Complete brand identity and digital presence for an artisan beard care company, from logo design through to e-commerce experience.",
+    "thumbnail": "/images/projects/wall-beard-thumb.jpg",
+    "heroImage": "/images/projects/wall-beard-hero.jpg",
+    "tags": ["Branding", "E-commerce", "Identity"],
+    "year": "2022",
+    "client": "Wall Beard",
+    "role": "Brand & UX Designer",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Wall Beard is a premium artisan beard care brand that needed a complete visual identity and e-commerce platform that reflected their commitment to quality and craftsmanship."
+      },
+      {
+        "title": "Approach",
+        "content": "I developed a brand identity that combined rugged masculinity with refined sophistication. The visual language included custom typography, a warm color palette, and hand-drawn illustrations that conveyed the artisanal nature of the products."
+      },
+      {
+        "title": "Final Thoughts",
+        "content": "The new brand identity and e-commerce platform helped Wall Beard establish a strong market presence, with online sales increasing by 200% in the first quarter after launch."
+      }
+    ]
+  },
+  {
+    "slug": "capcom-catie",
+    "title": "Capcom / Catie",
+    "category": "UX Strategy",
+    "description": "Strategic UX consultation for Capcom's digital experiences, focusing on player engagement and community-driven design approaches.",
+    "thumbnail": "/images/projects/capcom-thumb.jpg",
+    "heroImage": "/images/projects/capcom-hero.jpg",
+    "tags": ["UX Strategy", "Gaming", "Community"],
+    "year": "2022",
+    "client": "Capcom",
+    "role": "UX Strategy Consultant",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Working with Capcom on their community engagement platform, I helped bridge the gap between player expectations and digital experience delivery."
+      },
+      {
+        "title": "Challenges",
+        "content": "Gaming communities are passionate and vocal. The challenge was creating an experience that served both casual fans and hardcore enthusiasts while maintaining Capcom's brand standards."
+      },
+      {
+        "title": "Approach",
+        "content": "I conducted extensive community research, analyzing forum discussions, social media sentiment, and player behavior data. This informed a user-centered strategy that prioritized community engagement features."
+      },
+      {
+        "title": "Final Thoughts",
+        "content": "The strategy resulted in a 60% increase in community engagement metrics and established a framework for ongoing player-centered design decisions."
+      }
+    ]
+  },
+  {
+    "slug": "forlorn-hope",
+    "title": "Forlorn Hope",
+    "category": "Experience Design",
+    "description": "Immersive digital experience design for an independent craft brewery, blending storytelling with e-commerce functionality.",
+    "thumbnail": "/images/projects/forlorn-hope-thumb.jpg",
+    "heroImage": "/images/projects/forlorn-hope-hero.jpg",
+    "tags": ["Experience Design", "E-commerce", "Storytelling"],
+    "year": "2021",
+    "client": "Forlorn Hope",
+    "role": "Experience Designer",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Forlorn Hope is a craft brewery with a rich narrative behind every brew. They needed a digital experience that told their story while making it easy for customers to discover and purchase their products."
+      },
+      {
+        "title": "Approach",
+        "content": "I designed an immersive scrolling experience that wove the brewery's narrative through the product catalog. Each beer had its own story page with custom illustrations and tasting notes."
+      },
+      {
+        "title": "Final Thoughts",
+        "content": "The new website became a talking point in the craft beer community, driving a 150% increase in direct-to-consumer sales and earning recognition in several design publications."
+      }
+    ]
+  },
+  {
+    "slug": "xpod",
+    "title": "XPod",
+    "category": "Product Design",
+    "description": "End-to-end product design for a next-generation podcast platform, from concept through to launch-ready prototype.",
+    "thumbnail": "/images/projects/xpod-thumb.jpg",
+    "heroImage": "/images/projects/xpod-hero.jpg",
+    "tags": ["Product Design", "Mobile", "Audio"],
+    "year": "2021",
+    "client": "XPod",
+    "role": "Product Designer",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "XPod set out to create a podcast platform that prioritized discovery and social features. I led the product design from initial concept through to a fully functional prototype."
+      },
+      {
+        "title": "Challenges",
+        "content": "The podcast market is crowded with established players. XPod needed to differentiate through superior user experience and unique social features that existing platforms lacked."
+      },
+      {
+        "title": "Approach",
+        "content": "I designed a discovery-first experience with AI-powered recommendations, social listening groups, and interactive episode annotations. The interface was designed to be instantly familiar while introducing novel interaction patterns."
+      },
+      {
+        "title": "Final Thoughts",
+        "content": "The prototype tested exceptionally well in user sessions, with participants rating the discovery experience significantly higher than existing platforms. XPod secured seed funding based on the strength of the prototype."
+      }
+    ]
+  }
+]
