@@ -40,7 +40,7 @@ body {
   color: #fff;
   font-weight: 600;
   text-decoration: none;
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 8px 8px;
 }
 
 .skip-link:focus {
@@ -74,6 +74,7 @@ body {
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  border-radius: 4px;
 }
 
 /* Vertical text */

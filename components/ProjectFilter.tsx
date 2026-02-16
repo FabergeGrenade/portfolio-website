@@ -34,7 +34,7 @@ export default function ProjectFilter({ projects }: ProjectFilterProps) {
           <button
             key={cat}
             onClick={() => setActiveFilter(cat)}
-            className={`px-5 py-2 text-sm font-semibold uppercase tracking-wider transition-colors min-h-[44px] ${
+            className={`px-5 py-2 text-sm font-semibold uppercase tracking-wider transition-colors min-h-[44px] rounded ${
               activeFilter === cat
                 ? "bg-magenta text-white"
                 : "bg-gray-100 text-gray-700 hover:bg-gray-200"

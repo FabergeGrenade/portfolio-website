@@ -62,7 +62,7 @@ export default function Lightbox({ images, initialIndex, onClose }: LightboxProp
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.95 }}
           transition={{ duration: 0.2 }}
-          className="relative max-w-5xl max-h-[85vh] w-full mx-4"
+          className="relative max-w-5xl max-h-[85vh] w-full mx-4 rounded-2xl overflow-hidden"
           onClick={(e) => e.stopPropagation()}
         >
           <div className="relative w-full h-[70vh]">

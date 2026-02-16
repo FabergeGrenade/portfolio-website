@@ -43,7 +43,7 @@ export default function ContactForm() {
   };
 
   const inputClasses =
-    "w-full bg-transparent border border-gray-600 px-4 py-3 text-white placeholder:text-gray-500 focus:border-magenta focus:outline-none transition-colors";
+    "w-full bg-transparent border border-gray-600 px-4 py-3 text-white placeholder:text-gray-500 focus:border-magenta focus:outline-none transition-colors rounded-lg";
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} noValidate className="space-y-5">
@@ -131,7 +131,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="inline-flex items-center gap-2 bg-magenta text-white px-8 py-3 font-semibold text-sm uppercase tracking-wider hover:bg-magenta-dark transition-colors disabled:opacity-60 disabled:cursor-not-allowed min-h-[44px] min-w-[44px]"
+        className="inline-flex items-center gap-2 bg-magenta text-white px-8 py-3 font-semibold text-sm uppercase tracking-wider hover:bg-magenta-dark transition-colors disabled:opacity-60 disabled:cursor-not-allowed min-h-[44px] min-w-[44px] rounded-lg"
       >
         {status === "loading" ? (
           <>

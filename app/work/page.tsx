@@ -19,12 +19,12 @@ export default function WorkPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="w-full md:w-1/3">
-              <div className="relative aspect-square max-w-xs mx-auto md:mx-0 overflow-hidden">
+              <div className="relative aspect-square max-w-xs mx-auto md:mx-0 overflow-hidden rounded-2xl">
                 <Image
                   src="/images/work-portrait.jpg"
                   alt="Mark Sutcliffe"
                   fill
-                  className="object-cover grayscale"
+                  className="object-cover"
                   sizes="(max-width: 768px) 60vw, 25vw"
                   priority
                 />

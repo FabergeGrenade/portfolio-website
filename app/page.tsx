@@ -25,13 +25,13 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 w-full">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="w-full md:w-2/5 relative">
-              <div className="relative aspect-[3/4] max-w-md mx-auto">
+              <div className="relative aspect-[3/4] max-w-md mx-auto overflow-hidden rounded-2xl">
                 <Image
                   src="/images/hero-portrait.jpg"
                   alt="Mark Sutcliffe"
                   fill
                   priority
-                  className="object-cover grayscale"
+                  className="object-cover"
                   sizes="(max-width: 768px) 80vw, 35vw"
                 />
               </div>
@@ -51,13 +51,13 @@ export default function HomePage() {
               <div className="flex gap-4 pt-4">
                 <Link
                   href="/work"
-                  className="inline-flex items-center bg-magenta text-white px-8 py-3 font-semibold text-sm uppercase tracking-wider hover:bg-magenta-dark transition-colors min-h-[44px]"
+                  className="inline-flex items-center bg-magenta text-white px-8 py-3 font-semibold text-sm uppercase tracking-wider hover:bg-magenta-dark transition-colors min-h-[44px] rounded-lg"
                 >
                   View My Work
                 </Link>
                 <Link
                   href="/about"
-                  className="inline-flex items-center border border-white text-white px-8 py-3 font-semibold text-sm uppercase tracking-wider hover:bg-white hover:text-black transition-colors min-h-[44px]"
+                  className="inline-flex items-center border border-white text-white px-8 py-3 font-semibold text-sm uppercase tracking-wider hover:bg-white hover:text-black transition-colors min-h-[44px] rounded-lg"
                 >
                   About Me
                 </Link>
@@ -82,7 +82,7 @@ export default function HomePage() {
               <h2 className="font-heading text-3xl md:text-5xl font-bold mt-4 mb-2">
                 Designing With Purpose
               </h2>
-              <div className="w-16 h-1 bg-magenta mb-8" />
+              <div className="w-16 h-1 bg-magenta rounded mb-8" />
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
                 I&apos;m a UX strategist and designer with over a decade of experience
                 crafting digital experiences that connect brands with their audiences.
@@ -110,7 +110,7 @@ export default function HomePage() {
               <h2 className="font-heading text-3xl md:text-5xl font-bold mt-4 mb-2">
                 UX Strategy Model
               </h2>
-              <div className="w-16 h-1 bg-magenta mb-8" />
+              <div className="w-16 h-1 bg-magenta rounded mb-8" />
               <p className="text-gray-600 leading-relaxed mb-4">
                 My UX strategy model is built on a foundation of research,
                 empathy, and iterative design. It ensures that every decision is
@@ -122,7 +122,7 @@ export default function HomePage() {
               </p>
             </AnimatedSection>
             <AnimatedSection className="w-full md:w-1/2" delay={0.2}>
-              <div className="relative aspect-square bg-white rounded-lg shadow-lg p-8 flex items-center justify-center">
+              <div className="relative aspect-square bg-white rounded-2xl shadow-lg p-8 flex items-center justify-center">
                 <Image
                   src="/images/ux-strategy-model.png"
                   alt="UX Strategy Model diagram showing the iterative design process"
@@ -147,7 +147,7 @@ export default function HomePage() {
             >
               Featured Projects
             </h2>
-            <div className="w-16 h-1 bg-magenta mx-auto" />
+            <div className="w-16 h-1 bg-magenta rounded mx-auto" />
           </AnimatedSection>
 
           <div className="space-y-20 md:space-y-28">
@@ -164,7 +164,7 @@ export default function HomePage() {
           <AnimatedSection className="text-center mt-16">
             <Link
               href="/work"
-              className="inline-flex items-center bg-magenta text-white px-8 py-3 font-semibold text-sm uppercase tracking-wider hover:bg-magenta-dark transition-colors min-h-[44px]"
+              className="inline-flex items-center bg-magenta text-white px-8 py-3 font-semibold text-sm uppercase tracking-wider hover:bg-magenta-dark transition-colors min-h-[44px] rounded-lg"
             >
               View All Projects
             </Link>
@@ -180,7 +180,7 @@ export default function HomePage() {
             <h2 className="font-heading text-3xl md:text-5xl font-bold mt-4 mb-2">
               Clients &amp; Collaborators
             </h2>
-            <div className="w-16 h-1 bg-magenta mx-auto" />
+            <div className="w-16 h-1 bg-magenta rounded mx-auto" />
           </AnimatedSection>
           <AnimatedSection>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center">

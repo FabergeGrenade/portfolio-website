@@ -96,7 +96,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                 {project.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="bg-gray-100 text-gray-700 px-3 py-1 text-xs font-medium uppercase tracking-wider"
+                    className="bg-gray-100 text-gray-700 px-3 py-1 text-xs font-medium uppercase tracking-wider rounded"
                   >
                     {tag}
                   </span>
@@ -118,7 +118,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               <h2 className="font-heading text-2xl md:text-4xl font-bold mb-2">
                 {section.title}
               </h2>
-              <div className="w-12 h-1 bg-magenta mb-8" />
+              <div className="w-12 h-1 bg-magenta rounded mb-8" />
               <div className="text-gray-600 leading-relaxed text-lg space-y-4">
                 {section.content.split("\n").map((paragraph, pIndex) => (
                   <p key={pIndex}>{paragraph}</p>
@@ -130,7 +130,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               <AnimatedSection className="mt-12" delay={0.2}>
                 <div className="grid gap-4 sm:grid-cols-2">
                   {section.images.map((img, imgIndex) => (
-                    <div key={imgIndex} className="relative aspect-video bg-gray-100 overflow-hidden">
+                    <div key={imgIndex} className="relative aspect-video bg-gray-100 overflow-hidden rounded-lg">
                       <Image
                         src={img}
                         alt={`${project.title} - ${section.title} image ${imgIndex + 1}`}
@@ -159,7 +159,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           >
             {nextProject.title}
           </Link>
-          <div className="w-16 h-1 bg-magenta mx-auto mt-6" />
+          <div className="w-16 h-1 bg-magenta rounded mx-auto mt-6" />
         </div>
       </section>
 

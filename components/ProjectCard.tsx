@@ -22,7 +22,7 @@ export default function ProjectCard({ project, index, reverse = false }: Project
         reverse ? "md:flex-row-reverse" : "md:flex-row"
       } gap-8 md:gap-12 items-center`}
     >
-      <div className="w-full md:w-3/5 relative aspect-[16/10] bg-gray-100 overflow-hidden group">
+      <div className="w-full md:w-3/5 relative aspect-[16/10] bg-gray-100 overflow-hidden rounded-2xl group">
         <Image
           src={project.thumbnail}
           alt={`${project.title} project preview`}

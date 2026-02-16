@@ -99,21 +99,21 @@ export default function AboutPage() {
           <div className="flex flex-col md:flex-row gap-12 md:gap-16 items-center">
             <AnimatedSection className="w-full md:w-2/5">
               <div className="relative max-w-sm mx-auto md:mx-0">
-                <div className="relative aspect-[3/4] overflow-hidden">
+                <div className="relative aspect-[3/4] overflow-hidden rounded-2xl">
                   <Image
                     src="/images/about-portrait.jpg"
                     alt="Mark Sutcliffe portrait"
                     fill
-                    className="object-cover grayscale"
+                    className="object-cover"
                     sizes="(max-width: 768px) 80vw, 30vw"
                     priority
                   />
                 </div>
                 {/* Overlaid quotes */}
-                <div className="absolute top-8 -right-4 md:-right-8 bg-magenta text-white px-4 py-2 font-heading text-sm md:text-base italic">
+                <div className="absolute top-8 -right-4 md:-right-8 bg-magenta text-white px-4 py-2 rounded-lg font-heading text-sm md:text-base italic">
                   &ldquo;Eat when hungry&rdquo;
                 </div>
-                <div className="absolute bottom-8 -left-4 md:-left-8 bg-magenta text-white px-4 py-2 font-heading text-sm md:text-base italic">
+                <div className="absolute bottom-8 -left-4 md:-left-8 bg-magenta text-white px-4 py-2 rounded-lg font-heading text-sm md:text-base italic">
                   &ldquo;Sleep when tired&rdquo;
                 </div>
               </div>
@@ -123,7 +123,7 @@ export default function AboutPage() {
               <h2 className="font-heading text-3xl md:text-5xl font-bold">
                 A Little About Me
               </h2>
-              <div className="w-16 h-1 bg-magenta" />
+              <div className="w-16 h-1 bg-magenta rounded" />
               <p className="text-gray-600 leading-relaxed text-lg">
                 With over a decade of experience in UX strategy and design, I&apos;ve
                 helped brands across the globe create meaningful digital experiences.
@@ -153,14 +153,14 @@ export default function AboutPage() {
             <h2 id="toolkit-heading" className="font-heading text-3xl md:text-5xl font-bold mt-4 mb-2">
               My Toolkit
             </h2>
-            <div className="w-16 h-1 bg-magenta mx-auto" />
+            <div className="w-16 h-1 bg-magenta rounded mx-auto" />
           </AnimatedSection>
           <AnimatedSection>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
               {tools.map((tool) => (
                 <div
                   key={tool}
-                  className="bg-white p-4 text-center font-medium text-sm hover:shadow-md transition-shadow border border-gray-100"
+                  className="bg-white p-4 text-center font-medium text-sm hover:shadow-md transition-shadow border border-gray-100 rounded-lg"
                 >
                   {tool}
                 </div>
@@ -178,13 +178,13 @@ export default function AboutPage() {
             <h2 id="skills-heading" className="font-heading text-3xl md:text-5xl font-bold mt-4 mb-2">
               What I Do
             </h2>
-            <div className="w-16 h-1 bg-magenta mx-auto" />
+            <div className="w-16 h-1 bg-magenta rounded mx-auto" />
           </AnimatedSection>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {skills.map((skill, i) => (
               <AnimatedSection key={skill.title} delay={i * 0.1}>
-                <div className="p-8 border border-gray-100 hover:border-magenta transition-colors group">
-                  <div className="w-12 h-1 bg-magenta mb-6 group-hover:w-16 transition-all" />
+                <div className="p-8 border border-gray-100 hover:border-magenta transition-colors group rounded-lg">
+                  <div className="w-12 h-1 bg-magenta rounded mb-6 group-hover:w-16 transition-all" />
                   <h3 className="font-heading text-xl font-bold mb-3">
                     {skill.title}
                   </h3>
@@ -206,7 +206,7 @@ export default function AboutPage() {
             <h2 id="process-heading" className="font-heading text-3xl md:text-5xl font-bold mt-4 mb-2">
               How I Work
             </h2>
-            <div className="w-16 h-1 bg-magenta mx-auto" />
+            <div className="w-16 h-1 bg-magenta rounded mx-auto" />
           </AnimatedSection>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {processSteps.map((step, i) => (
